@@ -1,14 +1,16 @@
-{
-  "type" : "minecraft:crafting_shapeless",
-  "category": "building",
-  "ingredients": [
-    {
-      "items": "geology-redefined:block_of_olivine"
-    }
-  ],
-  "result": {
-    "count": 9,
-    "id": "geology-redefined:olivine"
-  }
 
-}
+
+  {
+    "type" : "minecraft:crafting_shapeless",
+    "category": "building",
+    "ingredients": [
+      {
+        "item": "geology-redefined:block_of_olivine"
+      }
+    ],
+    "result": {
+      "count": 9,
+      "id": "geology-redefined:olivine"
+    }
+
+  }

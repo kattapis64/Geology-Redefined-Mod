@@ -1,0 +1,20 @@
+{
+                      "type": "minecraft:block",
+                      "pools": [
+                        {
+                          "bonus_rolls": 0.0,
+                          "conditions": [
+                            {
+                              "condition": "minecraft:survives_explosion"
+                            }
+                          ],
+                          "entries": [
+                            {
+                              "type": "minecraft:item",
+                              "name": "geology-redefined:block_of_black_prismatic_tourmaline"
+                            }
+                          ],
+                          "rolls": 1.0
+                        }
+                      ]
+                    }

@@ -1,0 +1,16 @@
+
+
+  {
+    "type" : "minecraft:crafting_shapeless",
+    "category": "building",
+    "ingredients": [
+      {
+        "item": "geology-redefined:block_of_magnetite_with_goethite"
+      }
+    ],
+    "result": {
+      "count": 9,
+      "id": "geology-redefined:magnetite_with_goethite"
+    }
+
+  }

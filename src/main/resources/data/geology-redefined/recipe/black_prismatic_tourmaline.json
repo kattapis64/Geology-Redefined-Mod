@@ -1,0 +1,16 @@
+
+
+  {
+    "type" : "minecraft:crafting_shapeless",
+    "category": "building",
+    "ingredients": [
+      {
+        "item": "geology-redefined:block_of_black_prismatic_tourmaline"
+      }
+    ],
+    "result": {
+      "count": 9,
+      "id": "geology-redefined:black_prismatic_tourmaline"
+    }
+
+  }

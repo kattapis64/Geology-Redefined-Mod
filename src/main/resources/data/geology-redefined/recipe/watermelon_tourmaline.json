@@ -1,0 +1,16 @@
+
+
+  {
+    "type" : "minecraft:crafting_shapeless",
+    "category": "building",
+    "ingredients": [
+      {
+        "item": "geology-redefined:block_of_watermelon_tourmaline"
+      }
+    ],
+    "result": {
+      "count": 9,
+      "id": "geology-redefined:watermelon_tourmaline"
+    }
+
+  }

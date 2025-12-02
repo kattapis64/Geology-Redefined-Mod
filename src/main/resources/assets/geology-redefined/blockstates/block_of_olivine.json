@@ -1,7 +1,13 @@
 {
-  "variants": {
-    "": {
-    "model": "geology-redefined:block/block_of_olivine"
-    }
-  }
-}
+
+                   "variants": {
+
+                     "": {
+
+                     "model": "geology-redefined:block/block_of_olivine"
+
+                     }
+
+                   }
+
+                 }
