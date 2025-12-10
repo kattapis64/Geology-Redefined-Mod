@@ -85,6 +85,16 @@ public class ModBlocks {
     public static final Block QUARTZITE = registerBlock("quartzite",new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
     public static final Block MIGMATITE = registerBlock("migmatite",new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
 
+    public static final Block F_CONGLOMERATE = registerBlock("fossiliferous_conglomerate",new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+    public static final Block F_SANDSTONE = registerBlock("fossiliferous_sandstone",new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+    public static final Block F_SILTSTONE = registerBlock("fossiliferous_siltstone",new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+    public static final Block F_MUDSTONE = registerBlock("fossiliferous_mudstone",new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+    public static final Block F_CLAYSTONE = registerBlock("fossiliferous_claystone",new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+    public static final Block F_LIMESTONE = registerBlock("fossiliferous_limestone",new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+    public static final Block F_DOLOSTONE = registerBlock("fossiliferous_dolostone",new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+    public static final Block F_TRAVERTINE = registerBlock("fossiliferous_travertine",new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+    public static final Block F_DIATOMITE = registerBlock("fossiliferous_diatomite",new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+
     private static void registerBlockItem(String name, Block block){
         Registry.register(Registries.ITEM, Identifier.of(GeologyRedefined.MOD_ID,name),new BlockItem(block,new Item.Settings()));
     }
@@ -168,7 +178,15 @@ public class ModBlocks {
             entries.add(ModBlocks.MARBLE);
             entries.add(ModBlocks.QUARTZITE);
             entries.add(ModBlocks.MIGMATITE);
-
+            entries.add(ModBlocks.F_CONGLOMERATE);
+            entries.add(ModBlocks.F_SANDSTONE);
+            entries.add(ModBlocks.F_SILTSTONE);
+            entries.add(ModBlocks.F_MUDSTONE);
+            entries.add(ModBlocks.F_CLAYSTONE);
+            entries.add(ModBlocks.F_LIMESTONE);
+            entries.add(ModBlocks.F_DOLOSTONE);
+            entries.add(ModBlocks.F_TRAVERTINE);
+            entries.add(ModBlocks.F_DIATOMITE);
         });
     }
 }

@@ -1,0 +1,82 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "geology-redefined:fossiliferous_dolostone"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name":"geology-redefined:trilobite"
+            },
+            {
+              "type": "minecraft:item",
+              "name":"geology-redefined:graptolite"
+            },
+            {
+              "type": "minecraft:item",
+              "name":"geology-redefined:cephalopod"
+            },
+            {
+              "type": "minecraft:item",
+              "name":"geology-redefined:conodont"
+            },
+            {
+              "type": "minecraft:item",
+              "name":"geology-redefined:nautiloid"
+            },
+            {
+              "type": "minecraft:item",
+              "name":"geology-redefined:crinoid"
+            },
+            {
+              "type": "minecraft:item",
+              "name":"geology-redefined:fusilinid"
+            },
+            {
+              "type": "minecraft:item",
+              "name":"geology-redefined:bivalves"
+            },
+            {
+              "type": "minecraft:item",
+              "name":"geology-redefined:nerinea"
+            },
+            {
+              "type": "minecraft:item",
+              "name":"geology-redefined:ammonite"
+            },
+            {
+              "type": "minecraft:item",
+              "name":"geology-redefined:diatom"
+            },
+            {
+              "type": "minecraft:item",
+              "name":"geology-redefined:scallop"
+            },
+            {
+              "type": "minecraft:item",
+              "name":"geology-redefined:sea_snail"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.067
+        }
+      ]
+    }
+  ]
+}

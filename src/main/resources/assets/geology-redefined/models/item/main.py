@@ -1,8 +1,11 @@
-name = ["Dunite","Peridotite","Pyroxenite","Komatiite","Gabbro","Basalt","Granite","Diorite","Andesite","Scoria","Pumice","Aplite","Rhyolite","Conglomerate","Sandstone","Siltstone","Silt","Mudstone","Claystone","Limestone","Dolostone","Travertine","Diatomite","Coquina","Chalk","Shale","Slate","Phyllite","Schist","Gneiss","Marble","Quartzite","Migmatite"]
+name = ["Conglomerate","Sandstone","Siltstone","Mudstone","Claystone","Limestone","Dolostone","Travertine","Diatomite"]
 for i in name:
-    with open(f"{i.lower()}.json","w") as f:
+    with open(f"fossiliferous_{i.lower()}.json","w") as f:
         f.write(f"""
 {{
-  "parent": "geology-redefined:block/{i.lower()}"
+  "parent": "minecraft:block/cube_all",
+  "textures": {{
+    "all": "geology-redefined:block/fossiliferous_{i.lower()}"
+  }}
 }}
 """)

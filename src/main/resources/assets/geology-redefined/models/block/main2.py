@@ -3,10 +3,7 @@ for i in name:
     with open(f"fossiliferous_{i.lower()}.json","w") as f:
         f.write(f"""
 {{
-  "variants": {{
-    "": {{
-    "model": "geology-redefined:block/fossiliferous_{i.lower()}"
-    }}
-  }}
+  "parent": "geology-redefined:block/fossiliferous_{i.lower()}"
 }}
+
 """)

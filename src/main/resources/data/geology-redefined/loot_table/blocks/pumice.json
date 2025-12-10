@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "geology-redefined:pumice"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:quartz",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "geology-redefined:smoky_quartz",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "geology-redefined:rose_quartz",
+          "weight": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.067
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "geology-redefined:anorthite",
+              "weight": 1
+            },
+            {
+              "type": "minecraft:item",
+              "name": "geology-redefined:albite",
+              "weight": 1
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.02
+        }
+      ]
+    }
+  ]
+}

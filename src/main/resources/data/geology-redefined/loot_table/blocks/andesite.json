@@ -1,0 +1,95 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "rolls": 1.0,
+      "entries": [
+        { "type": "minecraft:item", "name": "geology-redefined:andesite" }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "geology-redefined:anorthite",
+          "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.08 }],
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1.0, "max": 2.0 } }]
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "geology-redefined:albite",
+          "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.08 }],
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1.0, "max": 2.0 } }]
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "geology-redefined:orthoclase",
+          "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.08 }],
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1.0, "max": 2.0 } }]
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "geology-redefined:amphibole",
+          "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.08 }],
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1.0, "max": 2.0 } }]
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "geology-redefined:pyroxene",
+          "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.04 }],
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1.0, "max": 2.0 } }]
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "geology-redefined:biotite",
+          "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.04 }],
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1.0, "max": 2.0 } }]
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "geology-redefined:magnetite",
+          "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.01 }],
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1.0, "max": 1.0 } }]
+        }
+      ]
+    }
+  ]
+}

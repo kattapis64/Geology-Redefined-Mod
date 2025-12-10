@@ -50,6 +50,20 @@ public class ModItems {
     public static final Item MAGNETITEWGOE = registerItem("magnetite_with_goethite",new Item(new Item.Settings()));
     public static final Item SPINEL = registerItem("spinel",new Item(new Item.Settings()));
     public static final Item HALITE = registerItem("halite",new Item(new Item.Settings()));
+    public static final Item SHELL_SCRAPS = registerItem("shell_scraps",new Item(new Item.Settings()));
+    public static final Item TRILOBITE = registerItem("trilobite",new Item(new Item.Settings()));
+    public static final Item GRAPTOLITE = registerItem("graptolite",new Item(new Item.Settings()));
+    public static final Item CEPHALOPOD = registerItem("cephalopod",new Item(new Item.Settings()));
+    public static final Item CONODONT = registerItem("conodont",new Item(new Item.Settings()));
+    public static final Item NAUTILOID = registerItem("nautiloid",new Item(new Item.Settings()));
+    public static final Item CRINOID = registerItem("crinoid",new Item(new Item.Settings()));
+    public static final Item FUSILINID = registerItem("fusilinid",new Item(new Item.Settings()));
+    public static final Item BIVALVES = registerItem("bivalves",new Item(new Item.Settings()));
+    public static final Item NERINEA = registerItem("nerinea",new Item(new Item.Settings()));
+    public static final Item AMMONITE = registerItem("ammonite",new Item(new Item.Settings()));
+    public static final Item DIATOM = registerItem("diatom",new Item(new Item.Settings()));
+    public static final Item SCALLOP = registerItem("scallop",new Item(new Item.Settings()));
+    public static final Item SEA_SNAIL = registerItem("sea_snail",new Item(new Item.Settings()));
 
     private static Item registerItem(String name,Item item){
         return Registry.register(Registries.ITEM, Identifier.of(GeologyRedefined.MOD_ID,name),item);
@@ -94,7 +108,22 @@ public class ModItems {
             entries.add(MAGNETITE);
             entries.add(MAGNETITEWGOE);
             entries.add(SPINEL);
-            entries.add(HALITE);
+            entries.add(SHELL_SCRAPS);
+            entries.add(TRILOBITE);
+            entries.add(GRAPTOLITE);
+            entries.add(CEPHALOPOD);
+            entries.add(CONODONT);
+            entries.add(NAUTILOID);
+            entries.add(CRINOID);
+            entries.add(FUSILINID);
+            entries.add(BIVALVES);
+            entries.add(NERINEA);
+            entries.add(AMMONITE);
+            entries.add(DIATOM);
+            entries.add(SCALLOP);
+            entries.add(SEA_SNAIL);
+
+
 
         });
     }

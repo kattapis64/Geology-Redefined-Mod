@@ -129,6 +129,20 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MARBLE);
                         entries.add(ModBlocks.QUARTZITE);
                         entries.add(ModBlocks.MIGMATITE);
+                        entries.add(ModItems.TRILOBITE);
+                        entries.add(ModItems.DIATOM);
+                        entries.add(ModItems.GRAPTOLITE);
+                        entries.add(ModItems.CEPHALOPOD);
+                        entries.add(ModItems.CONODONT);
+                        entries.add(ModItems.NAUTILOID);
+                        entries.add(ModItems.CRINOID);
+                        entries.add(ModItems.FUSILINID);
+                        entries.add(ModItems.BIVALVES);
+                        entries.add(ModItems.NERINEA);
+                        entries.add(ModItems.AMMONITE);
+                        entries.add(ModItems.SCALLOP);
+                        entries.add(ModItems.SEA_SNAIL);
+
 
                     }).build());
     public static void registerItemGroups(){
